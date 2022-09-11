@@ -1,0 +1,48 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+    font-size: 16px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    margin: 10px 10px 20px 50px;
+    background-image: url("it_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.block {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+}
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;/*No Change */
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    opacity: 0.8;
+}
+
+.formGroup{
+    justify-content: center;
+}
+h1, h2, .link {
+    display: flex;
+    justify-content: center;
+}
+
+.tables{
+    margin-right:0px !important;
+}
